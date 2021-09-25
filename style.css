@@ -1,0 +1,146 @@
+#container{
+  width: 1050px;
+  /* border: 1px solid grey; */
+  margin: 0 auto; /* centres the container div */
+}
+
+#header{
+  height: 100px;
+  padding: 10px 0;
+}
+
+#brand{
+  float: left;
+}
+
+h1 a{
+  font-size: 50px;
+  font-weight: 100;
+  color: deepskyblue;
+  text-decoration: none; /*gets rid off the underline caused by a link tag as its a link*/
+}
+#searchBox{
+  float: right;
+  background: linear-gradient(blue,aqua);/* lineaer gradient allows for two colors to be used */
+  width: 400px;
+  height: 50px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+
+.text{
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font: 16px;  /*change font size of input text for user*/
+  color:black;
+  background: white url(images/searchlogresized.png) right center no-repeat;
+}
+
+.submit{
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: blue;
+  background: green;
+  font-size: 14px;
+  border: 1px solid
+}
+
+.clear{
+  clear: both;
+}
+
+#menu{
+  height: 70px;
+  background: linear-gradient(blue,aqua);
+  padding: 7px 0;
+}
+
+ul{
+  list-style: none;  /*gets rid of the bullet points*/
+}
+
+#menu ul li{
+  float:left;
+  padding: 0 30px;
+  height: 30px;
+  border-right: 1px solid red;
+  
+}
+
+#menu ul li:last-child{
+  border-right: none; /*gets rid of the last border of the last child which is the last li*/
+}
+
+#menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  line-height: 30px;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+  transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{ /*when you hover over an item it will turn it bold, increase font size and change its color*/
+  font-size: 20px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+#intro{
+  background: linear-gradient(aqua,rgb(209, 209, 223));
+  padding: 30px;
+  margin: 15px 0; /*will move div elements away from other previous div elements, so puts moves a div away from another div*/
+}
+
+#intro h3{
+  font-size: 30px;
+  color: blue;
+  font-weight: normal;
+
+}
+
+#intro p{
+  font-size: 20px;
+  color: darkblue;
+  text-align: justify;
+}
+
+.sidebar{
+  height: 500px;
+  width: 430px;
+  border:1px darkblue solid;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+.sidebar h3{
+  color: blue;
+  font-size: 30px;
+}
+
+.sidebar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(35, 35, 192);
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+  text-decoration: none;
+  color: darkcyan;
+  font-size: 30px;
+}
+
+
+
+#leftsidebar{
+  float: left;
+}
+
+#rightsidebar{
+  float: right;
+}
