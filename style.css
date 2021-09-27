@@ -21,7 +21,7 @@ h1 a{
 }
 #searchBox{
   float: right;
-  background: linear-gradient(blue,aqua);/* lineaer gradient allows for two colors to be used */
+  background: linear-gradient(blue,aqua);/* linear gradient allows for two colors to be used */
   width: 400px;
   height: 50px;
   padding: 20px 20px 0 20px;
@@ -123,16 +123,34 @@ ul{
   font-size: 30px;
 }
 
+#rightsidebar ul li{
+  padding: 15px;
+  list-style-image: url(images/thumbresized.png);
+}
+
+#leftsidebar ul li{
+  /* padding: 20px; */
+  padding-bottom: 25px;
+  padding-left: 10px; /*moves the links away from the logo*/
+  list-style-image: url(images/arrowresized.png); /*to add images as bullet points list items*/
+}
+
 .sidebar ul li a{
   text-decoration: none;
   font-size: 20px;
   color: rgb(35, 35, 192);
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+  transition: font-size 0.3s ease;
 }
 
 .sidebar ul li a:hover,.sidebar ul li a.active{
   text-decoration: none;
-  color: darkcyan;
+  color: rgb(35, 35, 192);
   font-size: 30px;
+  font-style: italic;
 }
 
 
