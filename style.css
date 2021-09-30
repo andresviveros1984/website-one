@@ -111,7 +111,7 @@ ul{
 }
 
 .sidebar{
-  height: 500px;
+  height: 450px;
   width: 430px;
   border:1px darkblue solid;
   border-radius: 30px;
@@ -161,4 +161,12 @@ ul{
 
 #rightsidebar{
   float: right;
+}
+
+.footer{
+  height: 50px;
+  background: linear-gradient(blue,aqua);
+  padding: 10px 30px;
+  margin-top: 24px;
+
 }
